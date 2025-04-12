@@ -12,7 +12,7 @@ public class Inmuebles {
     [BsonElement("nombre_agente")]
     public string NombreAgente { get; set; } = string.Empty;
     [BsonElement("Baños")]
-    public int Banios { get; set; } 
+    public int Baños { get; set; } 
     [BsonElement("metros_terreno")]
     public int MetrosTerreno { get; set; }
     [BsonElement("metros_construccion")]
